@@ -1,0 +1,1134 @@
+*{
+	margin : 0px;
+	padding: 0px;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background: #FFF;
+}
+body a{
+    color:black;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+body a:hover {
+    color: red;
+	text-decoration: none;
+}
+body a:focus, a:hover {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	letter-spacing:1px;
+}
+p {
+	margin:0;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+label {
+	margin:0;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none
+}
+/* place holder */
+input::placeholder {
+    color: black;
+    text-indent: 20px;
+}
+ /* phan dau */
+.header{
+    padding: 10px 0;
+}
+.container{	
+    width: 1300px;
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* logo goc trai */
+.logo_home{
+    float: left;
+    width: 600px;
+}
+.logo_home img{
+    width: 3%;
+    position: absolute;
+    top: -5;
+    left: 35px;
+}
+.logo_home a h1 {
+    text-align: left;
+    color:black;
+    font-size: 40px;
+    font-weight: 100;
+    position: relative;
+    left: 50px ;
+}
+.logo_home a h1 span{
+    color: blue;
+    font-size: 11px;
+    transform: rotate(90deg);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+/* logo goc phai */
+.logo_phone{
+    float: left;
+    text-align: right;
+    width: 600px;
+    margin-left: 96px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* menu */
+.header_menu{
+    padding: 10px 0;
+    background: #f8f8f8;
+}
+.menu {
+    clear: both;
+    float: left;
+    width: 600px;
+    height: 50px;
+}
+.menu ul{
+    margin-left: 20px;
+    line-height:50px; 
+    font-size: 18px;
+}
+.menu ul li ul li ul li{
+    float: none;
+    font-weight: 100;
+    width: 130px;
+    height: 20px;
+    font-size:12px;
+    line-height:20px;
+    margin-left: 40px;
+    padding-left:20px;
+    margin-bottom: 20px;
+}
+.menu ul li ul li{
+	width: 780px;
+	left: -61px;
+}
+.menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    position: relative;
+}
+.menu-li{
+    font-weight: bold;
+}
+.menu-li:hover{
+    background: #00e58b;
+}
+.sub-submenu{
+    margin-left: 43px;
+    float: left;
+}
+.sub-submenu2{
+    float: left;
+    margin-right: 10px;
+}
+.submenu{
+    left: -20px;
+	width: 710px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    background-color: #fff;
+}
+.submenu ul{
+	margin-top: 20px;
+}
+.menu ul li>.submenu{
+	display: none;
+    position: absolute;
+}
+.menu ul li:hover .submenu{
+    display: block;
+}
+.sub-img{
+	float: left;
+	width: 240px;
+	height: 172px;
+}
+.sub-img img{
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/* search tim kiem */
+.search {
+    float: left;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.search form{
+    display: block;
+    text-align: right;
+}
+.search form input {
+    width: 300px;
+    height: 32px;
+    margin-right: 50px;
+}
+.search form button{
+    border: none;
+    width: 40px;
+    height: 36px;
+    right: 220px;
+    background: #00e58b;
+    position: absolute;
+    cursor: pointer;
+}
+.search form button:hover{
+    background: black;
+    transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+/* gio hang */
+.logo_cart{
+    float: left;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+.logo_cart button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+/* bannerarea */
+.single-banner {
+    display: flex;
+    float: left;
+    margin-left: 10px;
+    padding-left: 80px;
+    margin-top: 23px;
+}
+.single-banner .banner-img {
+    margin-right: 12px;
+    margin-top: 4px;
+}
+.single-banner .banner-img {
+  flex: 0 0 32px;
+  margin-top: 4px;
+}
+.single-banner .banner-text h4 {
+    color: #222;
+    font-family: "Rufina", serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.single-banner .banner-text p {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.banner-img-2 a {
+    border-radius: 3px;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner-img-2 a img {
+    width: 100%;
+    transform: scale(1);
+    transition: .5s;
+}
+.banner-img-2:hover a img {
+    transform: scale(1.1);
+}
+.banner-shadow-hover {
+    position: relative;
+}
+.banner-shadow-hover::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 300ms ease-in 0s;
+}
+.banner-shadow-hover:hover::before {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.7) inset;
+    transition: all 300ms ease-in 0s;
+}
+.banner-area-5 .banner-text {
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.banner-area-5 .banner-text h3 {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+.banner-area-5 .banner-text h2 {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    line-height: 1;
+    margin-right: -218px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.container1{
+    width: 1300px;
+    height: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* banner */
+.banner{
+    background: url(../image/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 580px; 
+}
+.banner h2{
+    margin-left: 70px;
+    padding-top: 17%;
+    text-align: left;
+    font-size: 35px;
+    color: #00e58b;
+}
+.banner h3{
+    margin-left: 70px;
+    margin-top:20px;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+}
+.banner p{
+    margin-left: 70px;
+    margin-top:5px;
+    width: 50%;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #c2cac7;
+}
+.banner a{
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.banner a:hover{
+    background: #00e58b;
+}
+/* hang sale */
+.container2{	
+    width: 1300px;
+    height: 550px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sale{
+    padding: 50px 0;
+}
+.ao{
+    background: url(../image/ao.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    float: left;
+    margin-left: 55px;
+    width: 450px;
+    height: 550px;
+    transition: 1s;
+    cursor: pointer;
+}
+.ao:hover{
+    transform: scale(1.1);
+}
+.ao h2{
+    margin-top: 200px;
+    color:white;
+    font-size: 50px;
+    font-weight: 100;
+}
+.giay{
+    background: url(../image/giay.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    float: left;
+    margin-left: 40px;
+    width: 370px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+.giay:hover{
+    transform: scale(1.1);
+}
+.giay h2{
+    margin-top: 80px;
+    color:white;
+    font-size: 30px;
+    font-weight: 100;
+}
+.dong-ho{
+    background: url(../image/dong-ho.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    float: left;
+    margin-left: 50px;
+    width: 280px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+.dong-ho:hover{
+    transform: scale(1.1);
+}
+.dong-ho h2{
+    margin-top: 80px;
+    color:white;
+    font-size: 30px;
+    font-weight: 100;
+}
+.giay-chuyen{
+    background: url(../image/day-chuyen.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    float: left;
+    margin-top: 46px;
+    margin-left: 40px;
+    width: 370px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+.giay-chuyen:hover{
+    transform: scale(1.1);
+}
+.giay-chuyen h2{
+    margin-top: 80px;
+    color:white;
+    font-size: 30px;
+    font-weight: 100;
+}
+.tui{
+    background: url(../image/tui-xach.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    float: left;
+    margin-left: 50px;
+    margin-top: 46px;
+    width: 280px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+.tui:hover{
+    transform: scale(1.1);
+}
+.tui h2{
+    margin-top: 80px;
+    color:white;
+    font-size: 30px;
+    font-weight: 100;
+}
+/* detail shop */
+.abc{
+	margin-top: 30px;
+	float: left;
+	margin-left: 25px;
+	width: 270px;
+	height: 490px;
+	z-index: 1;
+	position: relative;
+}
+.btn-danhsach{
+	width: 1200px;
+	text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.btn-danhsach button{
+	color : #999;
+	width: 100px;
+	height: 45px;
+	margin-left: 50px;
+	background: none;
+	border:1px solid #999;
+	cursor: pointer;
+}
+/*css cho div khoi*/
+.khoi{
+	width: 100%;
+	height: 420px;
+	margin: auto;
+	/*chia layer*/
+	overflow: hidden; 
+	position: relative;
+	z-index: 2;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	text-align: center;
+	transition: 0.6s;
+    background-size: cover;
+}
+.anh{
+    cursor: pointer;
+	width: 95%;
+	height: 369px;
+	border:1px solid #bbb;
+}
+.khoi img{
+	margin-top: 20px;
+	width: 95%;
+
+}
+.khoi h2{
+	opacity: 0;
+	width: 95%;
+	height: 48px;
+	background-color: #00e58b;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	text-indent: 10px;
+	font-weight: 100;
+	line-height: 48px;
+	position: absolute;
+	bottom: -50px;
+	transition: 0.5s;
+
+}
+.a{
+	margin-top: 15px;
+	position: relative;
+	z-index: 3;
+
+}
+.a i{
+	text-align: center;
+}
+i.yellow-star {
+    color: #ffac00;
+}
+i.gray-star {
+    color: #808080;
+}
+.khoi:hover h2{
+	bottom: 50px;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+.container0{
+    width: 1200px;
+    height: 1100px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ten{
+	text-align: center;
+	width: 100%;
+}
+.ten p{
+	font-size: 18px; 
+}
+
+/* cham soc dich vu */
+.container3{	
+    width: 1300px;
+    height: 450px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inf-service{
+    float: left;
+    width: 645px;
+    height: 319px;
+}
+.inf-service h3{
+    text-align: left;
+    font-weight: 100;
+    font-size: 35px;
+}
+.infor{
+    width: 645px;
+    height: 80px;
+    margin-top: 11px;
+}
+.icon{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+.icon i{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+    transition: 1s;
+}
+.icon i:hover{
+    background: #00e58b;
+}
+.letter{
+    float: left;
+    width: 550px;
+    height: 80px;
+    margin-left: 22px;
+}
+.letter h4{
+    text-align: left;
+    font-size: 20px;
+}
+.letter p{
+    font-size: 16px;
+    color: #999;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+/* thong tin tu khach hang */
+.customer{
+    float: left;
+    width: 615px;
+    height: 420px;
+    margin-left: 5px;
+    background: rgba(232, 232, 232, 0.46);
+}
+.customer-box{
+    width: 520px;
+    height: 370px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid white;
+}
+/* tao slide */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+  /* Ẩn các slider */
+  .mySlides {
+      display: none;
+      text-align: center;
+  }
+  /* Định dạng nội dung Caption */
+  .text {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* định dạng các chấm chuyển đổi các slide */
+.dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  /* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+  /* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/*top thuong hieu*/
+.wraper{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    clear: both;
+    position: relative;
+}
+.anhnho ul li{
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 95px; 
+    padding-left: 16px;
+    overflow:hidden; 
+}
+div.anhnho{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+}
+ div.anhnho li{
+    animation-duration:unset;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 130px;
+    height: 50px;
+    background-size: cover;
+    transition: 1s;
+}
+div.anhnho li:hover{
+    transform: scale(1.1);
+}
+/* muc new email */
+.new{
+    margin-top: 25px;
+    background: #ECECEC;
+}
+.container4{
+    width: 1200px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.chu{
+    float: left;
+    width: 600px;
+    height: 100px;
+    margin-top: 25px;
+}
+.chu h2{
+    text-align:left;
+    font-size: 40px;
+    font-weight: 100;
+}
+.chu p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.subcribe{
+    float: left;
+    width: 500px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.subcribe form{
+    margin-top: 25px;
+}
+.subcribe input{
+    width: 400px;
+    height: 40px; 
+}
+.subcribe button{
+    cursor: pointer;
+    border: 1px solid #00e58b;
+    width: 70px;
+    height: 45px;
+    background: #00e58b;
+    color: #FFF;
+    transition: 1s;
+}
+.subcribe button:hover{
+    background: black;
+    color: white ;
+}
+/* thon tin lien he */
+.contact{
+    height: 400px;
+}
+.container5{
+    width: 1200px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.address{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.address a img{
+    float: left;
+    width: 15%;
+}
+.address a h1{
+    float: left;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.address a h1 span{
+    font-weight: bold;
+    color: blue;
+    font-size: 8px;
+    transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    left: -15px;
+    top:-8px;
+
+}
+.address ul{
+    float: left;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.address ul li{
+    float: left;
+    font-size: 16px;    
+    list-style: none;
+}
+.cont-logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 38px;
+}
+.cont-logo .fa {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    border: 1px solid #000;
+    margin: 6px;
+    transition: 0.5s all;
+    color: #000;
+}
+.cont-logo .fa-twitter:hover{
+    border: 1px solid #1da1f2;
+    background: #1da1f2;
+    color: #FFF;
+}
+.cont-logo .fa-dribbble:hover{
+    border: 1px solid #f05bc3;
+    background: #f05bc3;
+    color: #FFF;
+}
+.cont-logo .fa-facebook:hover{
+    border: 1px solid #1f499c;
+    background: #1f499c;
+    color: #FFF;
+}
+.cont-logo .fa-linkedin:hover{
+    border: 1px solid #0468a7;
+    background: #0468a7;
+    color: #FFF;
+}
+.inf-lienhe{
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-left: 45px;
+}
+.inf-lienhe h1{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;   
+}
+.inf-lienhe ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+.inf-shop{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-left: 45px;
+}
+.inf-shop h1{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;   
+}
+.inf-shop ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+.inf-taikhoan{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 45px;
+}
+.inf-taikhoan h1{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;   
+}
+.inf-taikhoan ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+
+
+/* Log In */
+.form-login{
+    margin-top: 10px;
+    height: 440px;
+}
+.form-container{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+}
+.inf-login{
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.inf-login button{
+    background: #00e58b;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    width: 32%;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.inf-login button:hover{
+    background: #000;
+    transition: 1s;
+}
+.form-container form {
+    display: block;
+    width: 380px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-email {
+    height: 36px;
+    background: #fff;
+    border: 1px solid #999;
+    margin-bottom: 2em;
+}
+.form-email i {
+    float: left;
+    color: #999;
+    font-size: 15px;
+    padding: 10px;
+}
+.form-email input{
+    float: left;
+    width: 341px;
+    height: 36px;
+    border: none;
+}
+.bonus-inf{
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    height: 50px;
+}
+.bonus-inf a{
+    margin-left: 10px;
+    color: #029241;
+    font-size: 18px;
+}
+
+
+/* dang ky */
+.form-register{
+    margin-top: 10px;
+    height: 500px;
+}
+.form-container-register{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+}
+
+
+
+/* chi tiet sna pham */
+.detail-product{
+    margin-top: 20px;
+}
+.detail-product-container
+{
+    width: 1200px;
+    height: 600px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.detail-product-image{
+    float: left;
+    margin-left: 40px;
+    width: 25%;
+    height: 350px;
+}
+.detail-product-image img{
+    width: 100%;
+    height: 350px;
+}
+.detail-product-inf{
+    float: right;
+    width: 60%;
+    margin-top :20px;
+   
+}
+.detail-product-inf h3{
+    font-size: 2em;
+    color: #00e58b;
+    margin-bottom: .3em;
+    text-align: left;
+}
+.detail-product-inf p{
+    font-size: 14px;
+    color: #999;
+}
+.evaluate{
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1em;
+    margin-top: 10px;
+}
+.evaluate p{
+    float: left;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.evaluate a{
+    font-size: 16px;
+    margin-left: 30px;
+}
+.start{
+    float: left;
+}
+.evaluate-inf{
+    float: left;
+    padding-bottom: 20px;
+}
+.evaluate-inf ul li{
+    float: left;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 20px; 
+    margin-right: 40px;
+    color: #999;
+}
+.btn {
+    margin-top: 20px;
+    width: 28%;
+    font-weight: 300;
+    padding: 0.6em 0;
+    transition: .5s all;
+    display: inline-block;
+    background: #00e58b;
+    outline: none;
+    border: 1px solid #00e58b;
+    color: #fff;
+}
+.btn:hover{
+    border:1px solid rgb(10, 157, 194);
+    cursor: pointer;
+    background: rgb(10, 157, 194);
+}
+.comment{
+    float: left;
+    margin-top: 20px;   
+    width: 100%;
+    height: 220px;
+}
+.comment h3{
+    text-align:left; 
+    font-size:25px;
+    color:  rgb(10, 157, 194);
+}
+.comment textarea{
+    margin-top:20px;
+    width: 95%;
+    height: 120px;
+}
+.cmt-btn {
+    margin-top: 10px;
+    width: 12%;
+    font-weight: 300;
+    padding: 0.6em 0;
+    transition: .5s all;
+    display: inline-block;
+    background: #00e58b;
+    outline: none;
+    border: 1px solid #00e58b;
+    color: #fff;
+}
+.cmt-btn:hover{
+    border:1px solid rgb(10, 157, 194);
+    cursor: pointer;
+    background: rgb(10, 157, 194);
+}
